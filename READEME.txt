@@ -1,0 +1,13 @@
+Starting of 3D_Portfolio Web Design with Tailwindcss , Three js
+1.Create a folder "Portfolio"
+2.Open Terminal in vscode
+3.Type this in Terminal // npm create vite@latest ./ -- --template react //
+4.Installing Tailwind // npm install -D tailwindcss //
+5.Initialize Tailwind // npx tailwindcss init //
+6.React Tilt package installation // npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
+7.Tailwind work with vite We need to install this // npm install --legacy-peer-deps -D postcss autoprefixer //
+8.Initialize tailwindcss // npx tailwindcss init -p //
+
+// Make Folder Environment https://www.youtube.com/watch?v=0fYi8SGA20k
+1.Get assets , component , public files in https://drive.google.com/drive/folders/1KVU8iaH0E_JFtShNiR3BgCSA3pawXY4Z
+2.Replace Above Metioned Folder in Portfolio Folder

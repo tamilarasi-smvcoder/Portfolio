@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/b0f29e9bfe.js" crossorigin="anonymous"></script>
+    <script defer src="./main.js"></script>
+</head>
+<body>
+    
+    <button id="prev-btn">
+        <!--<i class="fas fa-arrow-circle-left"></i>-->
+        <h2 style="font-size: 20px; color:rgb(190, 0, 0);">Close</h2>
+    </button>
+
+    <!-- The Book -->
+    <div id="book" class="book">
+        <!-- Paper 1 -->
+        <div id="p1" class="paper">
+            <div class="front pcolor">
+                <div id="f1" class="front-content">
+                    <h1 class="book-title">Core Java</h1>
+                    <img class="cover-img" src="./Title.jpg" alt="dog">
+                </div>
+            </div>
+            <div class="back">
+                <div id="b1" class="back-content">
+                    <h2>Programming Fundamentals</h2>
+                    <div class="content">
+                        <p>Variables</p>
+                        <p>Data Type</p>
+                        <p>Operators</p>
+                        <p>Loops</p>
+                        <p>Methods</p>
+                        <p>Object</p>
+                        <p>Class</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Paper 2 -->
+        <div id="p2" class="paper">
+            <div class="front">
+                <div id="f2" class="front-content">
+                    <h3>Variables</h3>
+                    <div class="content1">
+                        <p>&nbsp &nbsp A variable is a container which holds the value while the Java program is executed. 
+                        A variable is assigned with a data type. Variable is a name of memory location. 
+                        There are three types of variables in java: local, instance and static.</p>&nbsp;
+                        <p>Syntax</p>&nbsp;
+                        <h4>datatype variableName = value;</h4>
+                        <img src="./variable.png" alt="variable"/>
+                    </div>
+                </div>
+            </div>
+            <div class="back">
+                <div id="b2" class="back-content">
+                    <h3>Data Types</h3>
+                    <div class="content1">
+                        <p><b>Primitive data types: </b>The primitive data types include boolean, char, byte, short, int, long, float and double.</p>&nbsp;
+                        <p><b>Non-primitive data types: </b>The non-primitive data types include Classes, Interfaces, and Arrays.</p>&nbsp;
+                        <img class="bok-img" src="./Datatype.png" alt="datatype"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Paper 3 -->
+        <div id="p3" class="paper">
+            <div class="front">
+                <div id="f2" class="front-content">
+                    <h1>Page 3</h1>
+                </div>
+            </div>
+            <div class="back">
+                <div id="b2" class="back-content">
+                    <h1>Page 4</h1>
+                </div>
+            </div>
+        </div>
+        <!-- Paper 4 -->
+        <div id="p4" class="paper">
+            <div class="front">
+                <div id="f3" class="front-content">
+                    <h1>Page 5</h1>
+                </div>
+            </div>
+            <div class="back">
+                <div id="b3" class="back-content">
+                    <h1>Page 6</h1>
+                </div>
+            </div>
+        </div>
+        <!-- Paper 5 -->
+        <div id="p5" class="paper">
+            <div class="front">
+                <div id="f3" class="front-content">
+                    <h1>Page 7</h1>
+                </div>
+            </div>
+            <div class="back">
+                <div id="b3" class="back-content">
+                    <h1>The Good Bye</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button id="next-btn">
+        <!--<i class="fas fa-arrow-circle-right"></i>-->
+        <h2 style="font-size: 20px; color:green;">Open</h2>
+    </button>
+
+
+</body>
+</html>
